@@ -353,8 +353,8 @@ function renderTodos(page) {
     container.innerHTML = '';
     container.classList.remove("notes-container");
     
-    const editIcon = "assets/edit.png";
-    const binIcon = "assets/bin.png";
+    const editIcon = "assets/edit.webp";
+    const binIcon = "assets/delete.png";
 
     currentPage = page;
     clearOtherPages(page);
